@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreeLearnCoding - Python Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/pyodide/v314.0.7/full/pyodide.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>StartLearning</h1>
+    <nav>
+      <a href="#learn">Learn Python</a>
+      <a href="#editor">Python Editor</a>
+      <a href="#practice">Practice</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside id="learn">
+      <h3>Python Tutorial</h3>
+      <a href="#lesson">Python Introduction</a>
+      <a href="#editor">Python Variables</a>
+      <a href="#editor">Python Data Types</a>
+      <a href="#editor">Python If Else</a>
+      <a href="#editor">Python Loops</a>
+      <a href="#practice">Python Exercises</a>
+    </aside>
+
+    <main>
+      <section id="lesson">
+        <h2>Python Tutorial</h2>
+        <p>Learn Python step by step with examples.</p>
+
+        <h3>Your First Python Program</h3>
+        <pre><code>print("Hello, World!")</code></pre>
+        <p>The print() function displays output on the screen.</p>
+      </section>
+
+      <section id="editor">
+        <h2>Try Python Yourself</h2>
+        <p>Write your code and click Run.</p>
+
+        <textarea id="code" spellcheck="false">print("Hello, World!")
+print(10 + 20)</textarea>
+        <button id="run">Run Python</button>
+        <p id="status">Loading Python engine...</p>
+        <h3>Output</h3>
+        <pre id="output">Please wait...</pre>
+      </section>
+
+      <section id="practice">
+        <h2>Practice Exercise</h2>
+        <p>Print your name using Python.</p>
+        <pre><code>print("My name is Alex")</code></pre>
+      </section>
+    </main>
+  </div>
+
+  <footer>FreeLearnCoding | Learn Python for Free</footer>
+</body>
+</html>
